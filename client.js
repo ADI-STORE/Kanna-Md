@@ -162,7 +162,7 @@ const connect = async () => {
             title: 'Yah beban group nambah lagi',
             largeThumb: true,
             thumbnail: pic,
-            url: 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+            url: 'https://chat.whatsapp.com/HGUIANsYcpCHpBld9OSJ7y'
          })
       } else if (room.action == 'remove') {
          let txt = (groupSet.text_left != '' ? groupSet.text_left : text_left).replace('+tag', `@${member.split`@`[0]}`).replace('+grup', `${meta.subject}`)
@@ -170,7 +170,7 @@ const connect = async () => {
             title: 'Yey beban group keluar',
             largeThumb: true,
             thumbnail: pic,
-            url: 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+            url: 'https://chat.whatsapp.com/HGUIANsYcpCHpBld9OSJ7y'
          })
       }
    })
